@@ -109,5 +109,11 @@
   <ItemGroup>
     <Resource Include="resource\pnqwing444.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\pngwing.com %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\pngwing.com %282%29 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
