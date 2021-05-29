@@ -95,31 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="resource\pngwing.com.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pngwingwhite.png.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pngwing.com %281%29 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pnqwing333.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pnqwing444.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pngwing.com %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pngwing.com %282%29 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pngwing.com %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resource\pngwing.com 5 %281%29.png" />
+    <Folder Include="resource\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
