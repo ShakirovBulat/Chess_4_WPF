@@ -71,5 +71,13 @@
         <Image Margin="0,0,2,0" Grid.Row="6" Source="pngwing.com.png" Stretch="Fill" Grid.Column="5"/>
         <Image Margin="0,0,2,0" Grid.Row="6" Source="pngwing.com.png" Stretch="Fill" Grid.Column="6"/>
         <Image Margin="0,0,2,0" Grid.Row="6" Source="pngwing.com.png" Stretch="Fill" Grid.Column="7"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1" Grid.Column="7"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1" Grid.Column="6"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1" Grid.Column="5"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1" Grid.Column="4"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1" Grid.Column="3"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1" Grid.Column="2"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1" Grid.Column="1"/>
+        <Image Source="pngwingwhite.png.png" Stretch="Fill" Grid.Row="1"/>
     </Grid>
 </Window>
