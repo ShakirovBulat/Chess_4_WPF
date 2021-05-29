@@ -94,8 +94,42 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="resource\" />
+    <Resource Include="resource\lPawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\dPawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\lQueen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\lKing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\lKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\lBishop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\lRook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\dBishop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\dKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\dRook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\dKing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\dQueen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

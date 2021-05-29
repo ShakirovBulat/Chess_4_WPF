@@ -31,13 +31,17 @@
             <RowDefinition Height="100" />
         </Grid.RowDefinitions>
 
-        <Border Grid.Column="0" Grid.Row="0" Background="BurlyWood" />
+        <Border Grid.Column="0" Grid.Row="0" Background="BurlyWood" >
+            <Image Source="resource\lRook.png" Stretch="Fill"/>
+        </Border>
         <Border Grid.Column="2" Grid.Row="0" Background="BurlyWood" >
-            <Image Margin="-99,0,101,0" Source="pnqwing444.png" Stretch="Fill"/>
+            <Image Source="resource\lBishop.png" Stretch="Fill"/>
         </Border>
         <Border Grid.Column="1" Grid.Row="1" Background="BurlyWood" />
         <Border Grid.Column="3" Grid.Row="1" Background="BurlyWood" />
-        <Border Grid.Column="4" Grid.Row="0" Background="BurlyWood" />
+        <Border Grid.Column="4" Grid.Row="0" Background="BurlyWood" >
+            <Image Source="resource\lKing.png" Stretch="Fill"/>
+        </Border>
         <Border Grid.Column="5" Grid.Row="1" Background="BurlyWood" />
         <Border Grid.Column="6" Grid.Row="2" Background="BurlyWood" />
         <Border Grid.Column="7" Grid.Row="1" Background="BurlyWood" />
@@ -57,15 +61,44 @@
         <Border Grid.Column="3" Grid.Row="5" Background="BurlyWood" />
         <Border Grid.Column="5" Grid.Row="5" Background="BurlyWood" />
         <Border Grid.Column="7" Grid.Row="5" Background="BurlyWood" />
-        <Border Grid.Column="0" Grid.Row="6" Background="BurlyWood" />
+        <Border Grid.Column="0" Grid.Row="6" Background="BurlyWood" >
+            <Image Source="resource\dPawn.png" Stretch="Fill"/>
+        </Border>
         <Border Grid.Column="2" Grid.Row="6" Background="BurlyWood" />
         <Border Grid.Column="4" Grid.Row="6" Background="BurlyWood" />
         <Border Grid.Column="6" Grid.Row="6" Background="BurlyWood" />
         <Border Grid.Column="1" Grid.Row="7" Background="BurlyWood" />
         <Border Grid.Column="3" Grid.Row="7" Background="BurlyWood" >
-            <Image Source="pngwing.com (1) (1).png" Stretch="Fill" Margin="-199,0,199,0"/>
+            <Image Source="resource\dQueen.png" Stretch="Fill"/>
         </Border>
         <Border Grid.Column="5" Grid.Row="7" Background="BurlyWood" />
         <Border Grid.Column="7" Grid.Row="7" Background="BurlyWood" />
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169"/>
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169" Grid.Column="1"/>
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169" Grid.Column="2"/>
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169" Grid.Column="3"/>
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169" Grid.Column="4"/>
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169" Grid.Column="5"/>
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169" Grid.Column="6"/>
+        <Image Grid.Row="1" Source="resource\lPawn.png" Stretch="Fill" RenderTransformOrigin="0.244,0.169" Grid.Column="7"/>
+        <Image Grid.Column="1" Grid.Row="6" Source="resource\dPawn.png" Stretch="Fill"/>
+        <Image Grid.Column="2" Grid.Row="6" Source="resource\dPawn.png" Stretch="Fill"/>
+        <Image Grid.Column="3" Grid.Row="6" Source="resource\dPawn.png" Stretch="Fill"/>
+        <Image Grid.Column="4" Grid.Row="6" Source="resource\dPawn.png" Stretch="Fill"/>
+        <Image Grid.Column="5" Grid.Row="6" Source="resource\dPawn.png" Stretch="Fill"/>
+        <Image Grid.Column="6" Grid.Row="6" Source="resource\dPawn.png" Stretch="Fill"/>
+        <Image Grid.Column="7" Grid.Row="6" Source="resource\dPawn.png" Stretch="Fill"/>
+        <Image Grid.Column="3" Source="resource\lQueen.png" Stretch="Fill"/>
+        <Image Grid.Column="1" Source="resource\lKnight.png" Stretch="Fill"/>
+        <Image Grid.Column="6" Source="resource\lKnight.png" Stretch="Fill" Margin="0,-5,0,0"/>
+        <Image Grid.Column="5" Source="resource\lBishop.png" Stretch="Fill"/>
+        <Image Grid.Column="7" Margin="0,0,0,96" Grid.RowSpan="2" Source="resource\lRook.png" Stretch="Fill"/>
+        <Image Grid.Column="2" Grid.Row="7" Source="resource\dBishop.png" Stretch="Fill"/>
+        <Image Grid.Column="5" Grid.Row="7" Source="resource\dBishop.png" Stretch="Fill"/>
+        <Image Grid.Column="1" Grid.Row="7" Source="resource\dKnight.png" Stretch="Fill"/>
+        <Image Grid.Column="6" Grid.Row="7" Source="resource\dKnight.png" Stretch="Fill"/>
+        <Image Grid.Row="7" Source="resource\dRook.png" Stretch="Fill"/>
+        <Image Grid.Row="7" Source="resource\dRook.png" Stretch="Fill" Grid.Column="7"/>
+        <Image Grid.Column="4" Grid.Row="7" Source="resource\dKing.png" Stretch="Fill"/>
     </Grid>
 </Window>
