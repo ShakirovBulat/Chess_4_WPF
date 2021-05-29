@@ -89,5 +89,9 @@
         <Image Grid.Row="7" Source="pngwing.com (2).png" Stretch="Fill" Grid.Column="7"/>
         <Image Grid.Column="7" Margin="0,0,10,0" Source="pngwing.com (2) (1).png" Stretch="Fill"/>
         <Image Source="pngwing.com (2) (1).png" Stretch="Fill"/>
+        <Image Source="pngwing.com (3).png" Stretch="Fill" Grid.Row="7" Grid.Column="2"/>
+        <Image Source="pngwing.com (3).png" Stretch="Fill" Grid.Row="7" Grid.Column="5"/>
+        <Image Source="pngwing.com 5 (1).png" Stretch="Fill" Grid.Column="2"/>
+        <Image Source="pngwing.com 5 (1).png" Stretch="Fill" Grid.Column="5"/>
     </Grid>
 </Window>
